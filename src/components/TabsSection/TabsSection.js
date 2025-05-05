@@ -17,55 +17,55 @@ function TabsSection() {
     {
       id: 1,
       icon: {
-        checked: <GoHomeFill size={30} />,
-        notChecked: <GoHome size={30} />,
+        checked: <GoHomeFill size={28} />,
+        notChecked: <GoHome size={28} />,
       },
       title: "Home",
     },
     {
       id: 2,
       icon: {
-        checked: <IoSearchSharp size={30}/>,
-        notChecked: <IoSearchOutline size={30}/>,
+        checked: <IoSearchSharp size={28}/>,
+        notChecked: <IoSearchOutline size={28}/>,
       },
       title: "Explore",
     },
     {
       id: 3,
       icon: {
-        checked: <IoNotificationsSharp size={30}/>,
-        notChecked: <IoNotificationsOutline size={30}/>,
+        checked: <IoNotificationsSharp size={28}/>,
+        notChecked: <IoNotificationsOutline size={28}/>,
       },
       title: "Notifications",
     },
     {
       id: 4,
-      icon: { checked: <MdEmail size={30}/>, notChecked: <MdOutlineEmail size={30}/> },
+      icon: { checked: <MdEmail size={28}/>, notChecked: <MdOutlineEmail size={28}/> },
       title: "Messages",
     },
     {
       id: 6,
-      icon: { checked: <RiFileListFill size={30}/>, notChecked: <RiFileListLine size={30}/> },
+      icon: { checked: <RiFileListFill size={28}/>, notChecked: <RiFileListLine size={28}/> },
       title: "Lists",
     },
     {
       id: 7,
-      icon: { checked: <FaBookmark size={30}/>, notChecked: <FaRegBookmark size={30}/> },
+      icon: { checked: <FaBookmark size={28}/>, notChecked: <FaRegBookmark size={28}/> },
       title: "Bookmarks",
     },
     {
       id: 8,
-      icon: { checked: <BsFillPeopleFill size={30}/>, notChecked: <BsPeople size={30}/> },
+      icon: { checked: <BsFillPeopleFill size={28}/>, notChecked: <BsPeople size={28}/> },
       title: "Communities",
     },
     {
       id: 9,
-      icon: { checked: <IoPerson size={30}/>, notChecked: <IoPersonOutline size={30}/> },
+      icon: { checked: <IoPerson size={28}/>, notChecked: <IoPersonOutline size={28}/> },
       title: "Profile",
     },
     {
       id: 10,
-      icon: { checked: <CiCircleMore size={30}/>, notChecked: <CiCircleMore size={30}/> },
+      icon: { checked: <CiCircleMore size={28}/>, notChecked: <CiCircleMore size={28}/> },
       title: "More",
     },
   ];
