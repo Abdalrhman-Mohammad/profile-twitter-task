@@ -1,0 +1,19 @@
+.spicific-tab-container{
+  display: flex;
+  align-items: center;
+  
+  /* color:white; */
+}
+.tab-icon{
+  padding:8px;
+  height: 30px;
+  width:  30px;
+}
+.tabs-title-checked{
+  font-size: 22px;
+  font-weight: 900;
+}
+.tabs-title-not-checked{
+  font-size: 22px;
+  font-weight: 400;
+}
