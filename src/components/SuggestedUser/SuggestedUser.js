@@ -8,13 +8,17 @@ import { SiSimpleanalytics } from "react-icons/si";
 import { PiUploadSimpleBold } from "react-icons/pi";
 import { IoMdPerson } from "react-icons/io";
 
-function SuggestedUser({ userName, handle, description, imgSrc }) {
+function SuggestedUser({ userName, handle, description="", imgSrc ,Top=true}) {
   let [checked, setChecked] = useState("Posts");
   return (
     <div>
       <div style={{ display: "flex", margin: "10px 10px 5px 25px" }}>
-        <IoMdPerson size={20} style={{ color: "grey", margin: "0 10px" }} />{" "}
-        <p style={{ color: "grey", margin: 0 }}>Node.js and 5 other follow</p>
+        { Top && (
+          <IoMdPerson size={20} style={{ color: "grey", margin: "0 10px" }} />
+        )}
+        {Top && (
+          <p style={{ color: "grey", margin: 0 }}>Node.js and 5 other follow</p>
+        )}
       </div>
       <div style={{ display: "grid", justifyContent: "start" }}>
         <img
@@ -31,7 +35,7 @@ function SuggestedUser({ userName, handle, description, imgSrc }) {
           <p style={{ color: "grey", margin: 0 }}>@{handle}</p>
         </div>
         <div style={{ gridRow: "2/3", display: "flex" }}>
-          <p style={{ margin: "0 5px 0 0" }}>{description}</p>
+          <p style={{ margin: "0 5px 0 0",lineHeight:1.5 }}>{description}</p>
         </div>
       </div>
     </div>
