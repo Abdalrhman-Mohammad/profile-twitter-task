@@ -1,0 +1,29 @@
+.spicific-tab-container-checked {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: max-content;
+  padding: 5px 30px 5px 25px; 
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.048);
+}
+.spicific-tab-container-not-checked {
+  display: flex;
+  align-items: center;
+  padding: 5px 30px 5px 25px; 
+  border-radius: 30px;
+  /* color:white; */
+}
+.tab-icon {
+  padding: 8px;
+  height: 28px;
+  width: 28px;
+}
+.tabs-title-checked {
+  font-size: 20px;
+  font-weight: 900;
+}
+.tabs-title-not-checked {
+  font-size: 20px;
+  font-weight: 400;
+}
